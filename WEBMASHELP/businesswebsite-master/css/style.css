@@ -1,0 +1,304 @@
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.container-fluid{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+	color:white;
+	font-family: Pacifico;
+	font-size: 25px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:white;
+	font-family:arial;
+	font-size: 15px ;
+}
+
+
+.jumbotron4 {
+	
+	
+	min-height:800px;
+	background-image: url('../ch.jpg');
+	
+}
+#topline {
+	margin-top:0px;
+	color:red;
+	font-family:Exo;
+	font-size:100px;
+	text-align:right;
+	
+}
+
+#nextline {
+	margin-top: 20px;
+	text-align:right;
+	color:black;
+	font-family:Poiret One;
+	font-size: 50px;
+	
+}
+
+#webmas{
+	
+	color:black;
+	font-size:200px;
+	text-decoration: bold;
+	font-family:Exo;
+	letter-spacing: 3px;
+}
+
+.jumbotron5 {
+	background: #F5F5F0;
+	min-height:120px;
+	
+}
+#wiwm {
+	color:black;
+	text-align:center;
+	font-family:exo;
+	font-size:100px;
+	margin-top: 30px;
+	
+}
+#gc {
+	text-align:center;
+	font-family:exo;
+	font-size:30px;
+	
+}
+
+.jumbotron6 {
+background: white;
+background-attachment:default;
+min-height:800px;
+margin-bottom:0px;
+	
+	
+}
+#wi {
+	margin-top:60px;
+	color:black;
+	font-family:Exo;
+	font-size: 110px;
+	text-align:center;
+}
+#hr2 {
+	border: 2px solid black;
+}
+#hr3 {
+	border: 2px solid black;
+}
+#great {
+	margin-top:30px;
+	color:black;
+	font-family:Quicksand;
+	font-size: 25px;
+	text-align:left;
+}
+
+
+#on {
+	margin-top:30px;
+	color:black;
+	font-family:Quicksand;
+	font-size: 25px;
+	text-align:left;
+}
+
+#student {
+	margin-top:30px;
+	color:black;
+	font-family:Quicksand;
+	font-size: 25px;
+	text-align:left;
+}
+
+.jumbotron7 {
+	background: #F5F5F0;
+	min-height:120px;
+	
+}
+#mtt {
+	color:black;
+	text-align:center;
+	font-family:exo;
+	font-size:100px;
+	margin-top: 30px;
+	
+}
+#co {
+	text-align:center;
+	font-family:exo;
+	font-size:30px;
+	
+}
+
+.jumbotron8 {
+background: white;
+background-attachment:default;
+min-height:800px;
+margin-bottom:0px;
+	
+	
+}
+#mtc {
+	color:black;
+	text-align:center;
+	font-family:exo;
+	font-size:100px;
+	margin-top: 30px;
+}
+.same {
+	text-align:center;
+	font-size:20px;
+	font-family:exo;
+}
+
+.jumbotron9 {
+	background: #F5F5F0;
+	min-height:120px;
+	
+}
+
+.jumbotron10 {
+background: white;
+background-attachment:default;
+min-height:800px;
+margin-bottom:0px;
+}
+
+.same1 {
+	text-align:center;
+	font-size:20px;
+	font-family:exo;
+}
+.jumbotron11 {
+	background: #F5F5F0;
+	min-height:120px;
+	
+}
+
+#mts {
+	color:black;
+	text-align:center;
+	font-family:exo;
+	font-size:100px;
+	margin-top: 30px;
+}
+#ts {
+	text-align:center;
+	font-size:30px;
+	font-family:exo;
+}
+
+.jumbotron12 {
+background: white;
+background-attachment:default;
+min-height:550px;
+margin-bottom:0px;
+}
+
+.same2 {
+	text-align:center;
+	font-size:15px;
+	font-family:exo;
+}
+
+.same3 {
+	text-align:center;
+	font-size:15px;
+	font-family:exo;
+}
+
+.jumbotron13 {
+	
+	background: #F5F5F0;
+	min-height:120px;
+	
+}
+#mtsp {
+	color:black;
+	text-align:center;
+	font-family:exo;
+	font-size:100px;
+	margin-top: 30px;
+}
+#ty {
+	
+	text-align:center;
+	font-size:30px;
+	font-family:exo;
+}
+
+.jumbotron14 {
+background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../train.jpg');
+background-attachment:fixed;
+min-height:550px;
+margin-bottom:0px;
+
+}
+
+.jumbotron15 {
+	background: #F5F5F0;
+	min-height:120px;
+	
+}
+#cu {
+	color:black;
+	text-align:center;
+	font-family:exo;
+	font-size:100px;
+	margin-top: 30px;
+
+}
+#ff {
+	text-align:center;
+	font-size:30px;
+	font-family:exo;
+}
+
+.jumbotron16 {
+background: white;
+background-attachment:default;
+min-height:450px;
+margin-bottom:0px;
+}
+
+#contactcharity {
+	text-align: center;
+	font-size: 25px;
+	font-family:exo;
+	color:red;
+}
+#contactsponsor {
+	text-align: center;
+	font-size: 25px;
+	font-family:exo;
+	color:red;
+}
+
+
+.footer
+{
+background: black;
+min-height:120px;
+}
+
+#wm2015 {
+	text-align: center;
+	margin-top: 30px;
+	font-family: Exo;
+	font-size:35px;
+	color:white;
+} 
+
+
+
+
