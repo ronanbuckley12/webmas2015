@@ -273,15 +273,17 @@ margin-bottom:0px;
 
 #contactcharity {
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
 	font-family:exo;
 	color:red;
+	text-decoration:underline;
 }
 #contactsponsor {
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
 	font-family:exo;
 	color:red;
+	text-decoration:underline;
 }
 
 
