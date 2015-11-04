@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Nunito|Open+Sans:400,300italic,800italic|Abel|Play:700|Pacifico|Exo:400,500|Bangers|Quicksand|Righteous|Lobster+Two:400,700|Russo+One|Rock+Salt|Playfair+Display+SC|Special+Elite' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
   </head>	
 	
 	<body>
@@ -34,7 +35,7 @@
 	</div>
 	
 	<div class="jumbotron4">
-		<div class="container"><br><br>
+		<div class="container "><br><br>
 				<p id="topline"><span id="webmas">WebMas</span>    2015 </p>
 				<p id="nextline">17th December; Great causes, 24 hours.<br>
 				</p>
@@ -42,8 +43,8 @@
 				</div>
 		</div>
 	
-	<div class="jumbotron5">
-		<div class="container">
+	<div class="jumbotron5" id="wiwm">
+		<div class="container" >
 			<div class="row">
 				
 				<p id="wiwm"><b>What is WebMas?</b></p>
@@ -66,7 +67,7 @@
 						</div>
 						<div class="col-md-6">
 							
-							<p id="great" >Great & innovative sites built for<br>Charities and Good causes; designed<br> to support and enhance existing campaigns.</p>
+							<p id="great" >Great & innovative sites built for<br><b>Charities</b> and Good causes; designed<br> to support and enhance existing campaigns.</p>
 						</div>
 						</hr>
 					</div><hr id="hr2">
@@ -79,7 +80,7 @@
 						</div>
 						<div class="col-md-6">
 							
-							<p id="on">On the 17th December, teams of students<br>from NCI will spend just 24 hours<br> designing, developing and deploying sites.<br> Each team will be assigned<br> an industry expert as a mentor for the day.<br>
+							<p id="on">On the <b>17th December</b>, teams of students<br>from NCI will spend just 24 hours<br> designing, developing and deploying sites.<br> Each team will be assigned<br> an industry expert as a mentor for the day.<br>
 							</p>
 						</div>
 						</hr>
@@ -130,7 +131,7 @@
 				<hr>
 				<div class="row">
 						<div class="col-md-4"><a target="_blank" href="http://activefirstresponders.org/"><img src="far.png" class="img-circle img-responsive" alt="Circular Holding Image"/></a><br>
-						<p class="same"><b>Active First Responders</b><br>We are a community based group that will be fully trained in dealing with and attending Cardiac Arrests in the local area. 
+						<p class="same"><b>Active First Responders</b><br>We are a community based group that will be fully trained in dealing with Cardiac Arrests in the local area. 
 						</div>
 						<div class="col-md-4"><a target="_blank" href="http://www.ceeds.ie/"><img src="ceeds.png" class="img-circle img-responsive" alt="Circular Holding Image"/></a><br>
 						<p class="same"><b>Ceeds Clondalkin</b><br> Providing services to local people who want to help improve their employment prospects.
@@ -139,7 +140,7 @@
 						<p class="same"><b>Capuchin Day Centre</b><br>The Capuchin Day Centre provides hundreds of breakfast and dinner meals everyday to those who are struggling.
 						</div>
 						
-				</div>
+				</div><br>
 			</div>
 		</div>
 		
@@ -187,7 +188,7 @@
 						<a target="_blank" href="https://www.linkedin.com/profile/view?id=123816183"><i class="fa fa-linkedin-square"></i></a></p>
 						</div>
 						
-				</div>
+				</div><br>
 			</div>
 		</div>
 		
@@ -271,7 +272,7 @@
 			
 			<div class="jumbotron14">
 				<div class="container">
-					<div class="row"><br><br><br><br><br><br><br><br>
+					<div class="row"><br><br><br><br><br><br>
 						
 						<div class="col-md-4">
 						<img width="400" height="400" src="http://webmas.ie/wp-content/uploads/2014/02/bk.png" class="img-responsive wp-post-image" alt="bk">
@@ -298,7 +299,7 @@
 						<img width="400" height="400" src="http://webmas.ie/wp-content/uploads/2014/11/1.png" class="img-responsive wp-post-image" alt="1">
 						</div>
 						
-					</div>
+					</div><br><br>
 				</div>
 			</div>
 			
@@ -370,7 +371,26 @@
 		<p id="wm2015">WebMas 2015 designed by Ronan Buckley.</p>
 		</div>
 	</div>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<script>
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
 	</body>
+	
 </html>	
 		
 		
